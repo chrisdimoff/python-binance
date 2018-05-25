@@ -36,7 +36,7 @@ class BinanceReconnectingClientFactory(ReconnectingClientFactory):
 
     maxDelay = 10
 
-    maxRetries = 5
+    maxRetries = 9999999999999999999999999999999999999999999999999999999999999999999999
 
 
 class BinanceClientFactory(WebSocketClientFactory, BinanceReconnectingClientFactory):
