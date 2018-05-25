@@ -75,6 +75,7 @@ class BinanceSocketManager(threading.Thread):
         :type client: binance.Client
 
         """
+        print('Hi, Hello! This is socket manager as per chris dimoffs edit. Expect unlimited retries :)')
         threading.Thread.__init__(self)
         self._conns = {}
         self._user_timer = None
